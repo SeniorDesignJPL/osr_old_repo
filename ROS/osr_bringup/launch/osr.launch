@@ -24,7 +24,7 @@
 	<node name="rover" pkg="osr" type="rover.py" output="screen">
 		<param name="enable_odometry" value="$(arg enable_odometry)"/>
 	</node>
-	<node name="led_screen" pkg="led_screen" type="arduino_comm.py"/>
+	<!-- <node name="led_screen" pkg="led_screen" type="arduino_comm.py"/> -->
 	<node pkg="joy"
 			type="joy_node" name="joy_node">
 
